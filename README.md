@@ -68,4 +68,68 @@ git remote add origin https://github.com/username/repo-name.git
 ```bash
 git push
 ```
+### Erstes Push mit Branch-Verknüpfung
+```bash
+git push -u origin main
+```
+
+### Änderungen vom Server holen (pull)
+```bash
+git pull
+```
+
+---
+
+## 🌿 Branches (Zweige)
+
+### Branch anzeigen
+```bash
+git branch
+```
+
+### Neuen Branch erstellen
+```bash
+git branch neuer-branch
+```
+
+### Zu einem Branch wechseln
+```bash
+git checkout neuer-branch
+```
+
+### Branch erstellen und direkt wechseln
+```bash
+git checkout -b neuer-branch
+```
+
+### Branch löschen
+```bash
+git branch -d branch-name
+```
+
+---
+
+## 🔀 Branches zusammenführen
+
+### Branch in aktuellen Branch mergen
+```bash
+git merge branch-name
+```
+
+---
+
+## 📥 Änderungen von GitHub holen
+
+### Änderungen holen (ohne mergen)
+```bash
+git fetch
+```
+
+### Branch von GitHub auschecken
+```bash
+git checkout origin/branch-name
+```
+
+---
+
 
