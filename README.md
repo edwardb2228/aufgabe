@@ -26,4 +26,16 @@ git clone https://github.com/username/repo-name.git
 Lädt ein Projekt von GitHub auf deinen Rechner.
 
 ---
+## 📝 Änderungen verfolgen
 
+### Status anzeigen
+```bash
+git status
+```
+Zeigt, was geändert wurde und was bereit zum Commit ist.
+
+### Datei zum Commit vormerken
+```bash
+git add dateiname
+```
+Stellt Git die Datei für den nächsten Commit bereit.
