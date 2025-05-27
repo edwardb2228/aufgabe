@@ -47,3 +47,25 @@ git add .
 Fügt alle geänderten Dateien hinzu.
 
 ---
+## 💾 Änderungen speichern
+
+### Commit erstellen
+```bash
+git commit -m "Nachricht"
+```
+Speichert die vorgemerkten Änderungen mit einer Nachricht.
+
+---
+
+## 🔄 Änderungen übertragen
+
+### Repository mit GitHub verbinden
+```bash
+git remote add origin https://github.com/username/repo-name.git
+```
+
+### Änderungen hochladen (push)
+```bash
+git push
+```
+
