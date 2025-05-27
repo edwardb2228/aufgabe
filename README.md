@@ -39,3 +39,11 @@ Zeigt, was geändert wurde und was bereit zum Commit ist.
 git add dateiname
 ```
 Stellt Git die Datei für den nächsten Commit bereit.
+
+### Alle Dateien zum Commit vormerken
+```bash
+git add .
+```
+Fügt alle geänderten Dateien hinzu.
+
+---
