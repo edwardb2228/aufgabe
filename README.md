@@ -10,3 +10,20 @@ Lade Git von https://git-scm.com herunter und installiere es.
 git config --global user.name "Dein Name"
 git config --global user.email "deine@email.de"
 ```
+---
+## 📁 Repository erstellen
+
+### Neues Repository starten
+```bash
+git init
+```
+Erstellt ein neues Git-Repository im aktuellen Ordner.
+
+### Vorhandenes Repository klonen
+```bash
+git clone https://github.com/username/repo-name.git
+```
+Lädt ein Projekt von GitHub auf deinen Rechner.
+
+---
+
