@@ -131,5 +131,19 @@ git checkout origin/branch-name
 ```
 
 ---
+## 📚 Verlauf anzeigen
+
+### Commit-Verlauf anzeigen
+```bash
+git log
+```
+
+### Kompakter Verlauf
+```bash
+git log --oneline
+```
+
+---
+
 
 
